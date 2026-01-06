@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "willos-warp-zone",
+	"version": "${version}",
+	"name": "Willo's Warp Zone",
+	"description": "WARP ZONE! A mod with several references to other games that I like.",
+	"authors": [
+		"willofkek"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/willos-warp-zone/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"willo.warpzone.WillosWarpZone"
+		],
+		"fabric-datagen": [
+			"willo.warpzone.WillosWarpZoneDataGenerator"
+		],
+		"client": [
+			"willo.warpzone.WillosWarpZoneClient"
+		]
+	},
+	"mixins": [
+		"willos-warp-zone.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.18.4",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
