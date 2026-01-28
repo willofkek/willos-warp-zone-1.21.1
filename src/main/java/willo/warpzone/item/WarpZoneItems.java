@@ -10,7 +10,7 @@ import willo.warpzone.WillosWarpZone;
 
 public class WarpZoneItems {
 
-    public static final Item ROBOT_GUARD = registerItem("robot_guard", new ParryShieldItem(new Item.Settings()));
+    public static final Item ROBOT_GUARD = registerItem("robot_guard", new ParryShieldItem(new Item.Settings().maxDamage(750)));
 
     private static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(WillosWarpZone.MOD_ID, name), item);
