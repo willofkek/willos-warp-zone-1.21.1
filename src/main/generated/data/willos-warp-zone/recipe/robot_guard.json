@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "G": {
+      "item": "minecraft:glowstone"
+    },
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "L": {
+      "item": "minecraft:lapis_block"
+    }
+  },
+  "pattern": [
+    "III",
+    "LGL",
+    " L "
+  ],
+  "result": {
+    "count": 1,
+    "id": "willos_warp_zone:robot_guard"
+  }
+}
