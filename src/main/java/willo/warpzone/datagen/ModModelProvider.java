@@ -19,6 +19,5 @@ public class ModModelProvider extends FabricModelProvider {
 
     @Override
     public void generateItemModels(ItemModelGenerator itemModelGenerator) {
-        itemModelGenerator.register(WarpZoneItems.ROBOT_GUARD, Models.GENERATED);
     }
 }
