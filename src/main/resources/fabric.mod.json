@@ -1,6 +1,6 @@
 {
 	"schemaVersion": 1,
-	"id": "willos-warp-zone",
+	"id": "willos_warp_zone",
 	"version": "${version}",
 	"name": "Willo's Warp Zone",
 	"description": "WARP ZONE! A mod with several references to other games that I like.",
@@ -12,7 +12,7 @@
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
 	"license": "CC0-1.0",
-	"icon": "assets/willos-warp-zone/icon.png",
+	"icon": "assets/willos_warp_zone/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
